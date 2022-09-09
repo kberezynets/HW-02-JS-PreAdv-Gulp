@@ -1,0 +1,61 @@
+extends common/layout
+
+block content 
+  main.main
+    section
+      h2 How Dreamshare works?
+      .steps_flex
+        .step.s1_photo.pic_location.container
+          .step__button.button_red Step 1
+          .step__header Sed leo enim, condimentum
+          .step__text.Roboto
+            | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+        .step.s2_photo.pic_location.container
+          .step__button.button_red Step 2
+          .step__header.morbi_margin Morbi velit risus
+          .step__text.Roboto
+            | Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.
+        .step.s3_photo.pic_location.container
+          .step__button.button_red Step 3
+          .step__header Sed leo enim, condimentum
+          .step__text.Roboto
+            | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+    section.padding_mobile
+      h2 Meet a partner for your best holiday
+      .partners_flex
+        .partner.container.nomargin
+          .partner__ava.p1_photo.pic_location.icon.music
+          .partner__name Bradley Hunter
+          .partner__about.Roboto Based in Chicago. I love playing tennis and loud music.
+        .partner.container.margins_tablet
+          .partner__ava.p2_photo.pic_location.icon.brush
+          .partner__name Marie Bennett
+          .partner__about.Roboto Currently living in Colorado. Lover of art, languages and travelling.
+        .partner.container
+          .partner__ava.p3_photo.pic_location.icon.camera
+          .partner__name.diana_margin Diana Wells
+          .partner__about.Roboto
+            | Living in Athens, Greece. I love black and white classics, chillout music and green tea.
+        .partner.container
+          .partner__ava.p4_photo.pic_location.icon.plane
+          .partner__name Christopher Pierce
+          .partner__about.Roboto Star Wars fanatic. I have a persistent enthusiasm to create new things.
+      .mobile_margin
+        .partner__button See other partners
+    section
+      h2.margin_mobile Discover holiday activity ideas
+      .ideas_box
+        .sport.ideas_flex Sports and Activis
+        .health.ideas_flex Wellness and Health
+        .extreme.extreme-text.ideas_flex Extreme Sports and Expeditions
+        .games.ideas_flex Games
+        .culture.ideas_flex Culture and Education
+        .relax.ideas_flex Enjomet and Relaxation
+        .travel.ideas_flex Trevelling
+    section
+      h2 Crate your holiday activity
+      .interest_hi.Roboto Hi! What are your holiday interests?
+      .interest_flex
+        form(action='')
+          input.interest_form.Roboto(type='text', placeholder='  Enter your insterests')
+        .button_search Search partners
